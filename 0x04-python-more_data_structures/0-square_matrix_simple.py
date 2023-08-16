@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-old_matrix = matrix.copy()
+def square_matrix_simple(matrix=[]):
+    nw_matrix = matrix.copy()
 
-for s in range(len(matrix)):
-    old_matrix[s] = list(map(lambda x: x**2, matrix[s]))
+    for s in range(len(matrix)):
+        nw_matrix[s] = list(map(lambda x: x**2, matrix[s]))
 
-    return (old_matrix)
+    return (nw_matrix)
