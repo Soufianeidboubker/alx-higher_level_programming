@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-""Defines a Rectangle class.""
+"""Defines a Rectangle class."""
+
 
 class Rectangle:
-    ""Represent a rectangle.""
+    """Represent a rectangle."""
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
@@ -59,8 +60,8 @@ class Rectangle:
             return ("")
 
         rect = []
-        for s in range(self.__height):
+        for i in range(self.__height):
             [rect.append('#') for j in range(self.__width)]
-            if s != self.__height - 1:
+            if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))

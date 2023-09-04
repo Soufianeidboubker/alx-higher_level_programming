@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
 
+
 class Rectangle:
     """Represent a rectangle.
 
@@ -95,9 +96,9 @@ class Rectangle:
             return ("")
 
         rect = []
-        for s in range(self.__height):
+        for i in range(self.__height):
             [rect.append(str(self.print_symbol)) for j in range(self.__width)]
-            if s != self.__height - 1:
+            if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
 
