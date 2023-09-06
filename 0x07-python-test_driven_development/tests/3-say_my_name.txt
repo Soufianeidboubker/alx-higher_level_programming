@@ -14,12 +14,12 @@ Usage
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Soufiane", "Idboubker")
-    My name is Soufiane Idboubker
+    >>> say_my_name("Brennan", "Baraban")
+    My name is Brennan Baraban
 
 ::
 
-    >>> say_my_name("Soufiane Maxwell", "Jones II")
+    >>> say_my_name("Cornelius Maxwell", "Jones II")
     My name is Cornelius Maxwell Jones II
 
 The parameter ```last_name``` is optional. If no last name is provided,
@@ -27,8 +27,8 @@ an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Soufiane")
-    My name is Soufiane
+    >>> say_my_name("Brennan")
+    My name is Brennan 
 
 Invalid Names
 =============
