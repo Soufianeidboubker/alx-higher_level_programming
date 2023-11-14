@@ -16,5 +16,4 @@ class Square extends SquareP {
   }
 }
 
-
 module.exports = Square;
